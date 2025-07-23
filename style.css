@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.fa-house {
+  font-size: 400px;
+  color: red;
+  animation-name: icon-animation;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  box-shadow: 400cm;
+}
+@keyframes icon-animation {
+  0% {
+    color: red;
+  }
+  25% {
+    color: green;
+  }
+  75% {
+    color: black;
+  }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+p {
+  transform: translateY(22px);
+  animation-name: immanuel;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  color: red;
+}
+@keyframes immanuel {
+  0% {
+    transform: translateY(0);
+    color: blue;
+  }
+  100% {
+    transform: translateY(22px);
+    color: red;
+  }
+}
