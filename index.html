@@ -3,20 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animation</title>
+    <title>Order delivery.ng</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div>
-      <i class="fa-solid fa-house"></i>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      />
+    <div class="header1">
+      <header>
+        Order Delivery and Tracking Form <br />
+        <button class="head-btn">Use this Template</button>
+      </header>
     </div>
-    <p>EMMANUEL</p>
+
+    <main>
+      <div class="parent">
+        <h1>Order/Delivery Tracking</h1>
+        <p>Trace your order</p>
+
+        <h2>Personal Information</h2>
+      </div>
+      <form action="submit">
+        <div class="name">
+          <label for="Name">Name</label><span>*</span><br />
+          <i class="fa-solid fa-circle-user"></i>
+          <input type="text" required />
+        </div>
+        <div class="name">
+          <label for="Email">Email</label><span>*</span><br /><input
+            type="email"
+            required
+          />
+        </div>
+        <div class="name">
+          <label for="Contact Number">Contact Number</label><span>*</span
+          ><br /><input type="number" required />
+        </div>
+        <div class="name">
+          <input type="text" required /> <br />
+          <label for="City">City</label><span>*</span>
+        </div>
+        <div class="name">
+          <input type="text" required /> <br />
+          <label for="State/Religion/Province">State/Religion/Province</label
+          ><span>*</span>
+        </div>
+        <div class="name">
+          <input type="text" required /> <br />
+          <label for="Postal / Zip Code">Postal / Zip Code</label><span>*</span>
+        </div>
+        <div class="name">
+          <input type="text" required /> <br />
+          <label for="Country">Country</label><span>*</span>
+        </div>
+        <div class="name">
+          <label for="date">When did you place your order</label><span>*</span>
+          <br />
+          <input type="date" required />
+        </div>
+        <h2>Order Information</h2>
+        <div class="name">
+          <label for="Order Id">Order ID</label><span>*</span><br />
+          <input type="number" required />
+        </div>
+        <div class="name">
+          <label for="Delivery destination">Delivery destination</label
+          ><span>*</span><br /><input type="text" required />
+        </div>
+        <div class="name1">
+          <input type="text" required /> <br />
+          <label for="Street address">Street Address</label>
+        </div>
+        <div class="name1">
+          <input type="text" required /> <br />
+          <label for="Address line 2">Address line 2</label>
+        </div>
+        <div class="name">
+          <button class="submit" id="btn">
+            <a href="https://www.ordertracker.com/" target="_blank">Submit</a>
+          </button>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
