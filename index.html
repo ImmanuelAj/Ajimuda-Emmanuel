@@ -1,94 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order delivery.ng</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div class="header1">
-      <header>
-        Order Delivery and Tracking Form <br />
-        <button class="head-btn">Use this Template</button>
-      </header>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 100%;
+            margin: 0;
+            height: 100dvh;
+            font-size: 30px;
+            text-align: center;
+        }
+        h1{
+            text-transform: capitalize;
+        }
+        span{
+            font-size: 30px;
+            background-color: green;
+            box-shadow: 2px 2px 20px yellow;
+        }
+       
+        .for-example{
+            text-align: left;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>for loop <br> <span>Loops are used to just repeat our codes</span></h1>
+    <p>
+        for (let i  = 1; i < 20; i = i + 1)
+    </p>
+    <h2 class="for-assignment">Assignment</h2>
+    <p>Write a for-loop that loopss through 1 to 15</p>
+    <p>If the number is odd, print "ASAP"</p>
+    <p>If the number is even, print "Frontend"</p>
+    <p>If the number is divisible by 5, Print "Asap Frontend"</p>
 
-    <main>
-      <div class="parent">
-        <h1>Order/Delivery Tracking</h1>
-        <p>Trace your order</p>
+    <h2 class="for-example">For Example
+    <p>1 - "ASAP"</p>
+    <p>2 - "Frontend"</p>
+    <p>3 - "ASAP"</p>
+    <p>4 - "Frontend"</p>
+    <p>5 - "ASAP Frontend"</p>
+    <p>6 - "Frontend"</p>
+    <p>10 - "ASAP Frontend"</p>
+    <p>15 - "ASAP Frontend"</p>
+    </h2>
 
-        <h2>Personal Information</h2>
-      </div>
-      <form action="submit">
-        <div class="name">
-          <label for="Name">Name</label><span>*</span><br />
-          <i class="fa-solid fa-circle-user"></i>
-          <input type="text" required />
-        </div>
-        <div class="name">
-          <label for="Email">Email</label><span>*</span><br /><input
-            type="email"
-            required
-          />
-        </div>
-        <div class="name">
-          <label for="Contact Number">Contact Number</label><span>*</span
-          ><br /><input type="number" required />
-        </div>
-        <div class="name">
-          <input type="text" required /> <br />
-          <label for="City">City</label><span>*</span>
-        </div>
-        <div class="name">
-          <input type="text" required /> <br />
-          <label for="State/Religion/Province">State/Religion/Province</label
-          ><span>*</span>
-        </div>
-        <div class="name">
-          <input type="text" required /> <br />
-          <label for="Postal / Zip Code">Postal / Zip Code</label><span>*</span>
-        </div>
-        <div class="name">
-          <input type="text" required /> <br />
-          <label for="Country">Country</label><span>*</span>
-        </div>
-        <div class="name">
-          <label for="date">When did you place your order</label><span>*</span>
-          <br />
-          <input type="date" required />
-        </div>
-        <h2>Order Information</h2>
-        <div class="name">
-          <label for="Order Id">Order ID</label><span>*</span><br />
-          <input type="number" required />
-        </div>
-        <div class="name">
-          <label for="Delivery destination">Delivery destination</label
-          ><span>*</span><br /><input type="text" required />
-        </div>
-        <div class="name1">
-          <input type="text" required /> <br />
-          <label for="Street address">Street Address</label>
-        </div>
-        <div class="name1">
-          <input type="text" required /> <br />
-          <label for="Address line 2">Address line 2</label>
-        </div>
-        <div class="name">
-          <button class="submit" id="btn">
-            <a href="https://www.ordertracker.com/" target="_blank">Submit</a>
-          </button>
-        </div>
-      </form>
-    </main>
-  </body>
+</body>
 </html>
